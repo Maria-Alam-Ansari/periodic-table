@@ -1,0 +1,54 @@
+.alkali-metal:hover {
+  background-color: var(--alkali-metal);
+  color: black;
+}
+
+.alkali-earth-metal:hover {
+  background-color: var(--alkali-earth-metal);
+  color: black;
+}
+
+.transition-metal:hover {
+  background-color: var(--transition-metal);
+  color: black;
+}
+
+.metalloid:hover {
+  background-color: var(--metalloid);
+  color: black;
+}
+
+.post-transition-metal:hover {
+  background-color: var(--post-transition-metal);
+  color: black;
+}
+
+.unknown:hover {
+  background-color: var(--unknown);
+  color: black;
+}
+
+.polyatomic-nonmetal:hover {
+  background-color: var(--polyatomic-nonmetal);
+  color: black;
+}
+
+.noble-gas:hover {
+  background-color: var(--noble-gas);
+  color: black;
+}
+
+.diatomic-nonmetal:hover {
+  background-color: var(--diatomic-nonmetal);
+  color: black;
+}
+
+.lanthanide:hover {
+  background-color: var(--lanthanide);
+  color: black;
+}
+
+.actinide:hover {
+  background-color: var(--actinide);
+  color: black;
+}
