@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="colors.css" />
+    <link rel="stylesheet" href="elementHover.css" />
+    <link rel="stylesheet" href="loader.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="filters.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Periodic Table</title>
+  </head>
+  <body>
+    <div id="loader">
+      <h3>Maria &</h3>
+      <h3>Nusayba</h3>
+      <h3>Ki</h3>
+      <h3>Mehnat</h3>
+    </div>
+
+    <div class="popup-container">
+      <div class="popup">
+        <div class="popup-header">
+          <div class="popup-symbol">h</div>
+          <div class="popup-name">hello</div>
+          <button id="close-popup">&times;</button>
+        </div>
+        <div class="popup-content">
+          <div class="basic-info">
+            <h3 class="sub-headings">Basic Information:</h3>
+          </div>
+          <div class="physical-properties">
+            <h3 class="sub-headings">Physical Properties:</h3>
+          </div>
+          <div class="atomic-properties">
+            <h3 class="sub-headings">Atomic Properties:</h3>
+          </div>
+          <div class="other-info">
+            <h3 class="sub-headings">Other Information:</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-wrapper">
+      <div class="table"></div>
+      <div class="filter-buttons">
+        <button class="alkali-metal" data-category="alkali-metal">
+          Alkali Metal
+        </button>
+        <button class="alkali-earth-metal" data-category="alkali-earth-metal">
+          Alkaline Earth
+        </button>
+        <button class="transition-metal" data-category="transition-metal">
+          Transition Metal
+        </button>
+        <button class="metalloid" data-category="metalloid">Metalloid</button>
+        <button
+          class="post-transition-metal"
+          data-category="post-transition-metal"
+        >
+          Post-Transition
+        </button>
+        <button class="polyatomic-nonmetal" data-category="polyatomic-nonmetal">
+          Polyatomic
+        </button>
+        <button class="diatomic-nonmetal" data-category="diatomic-nonmetal">
+          Diatomic
+        </button>
+        <button class="noble-gas" data-category="noble-gas">Noble Gas</button>
+        <button class="lanthanide" data-category="lanthanide">
+          Lanthanide
+        </button>
+        <button class="actinide" data-category="actinide">Actinide</button>
+        <button class="unknown" data-category="all">All</button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="loader.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
