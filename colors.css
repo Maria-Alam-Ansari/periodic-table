@@ -1,0 +1,83 @@
+:root {
+  --alkali-metal: #4cc9f0;
+  --alkali-earth-metal: #ffff00;
+  --transition-metal: #ff073a;
+  --metalloid: #b026ff;
+  --post-transition-metal: #7cfc00;
+  --unknown: #e6ff66;
+  --polyatomic-nonmetal: #00ffcc;
+  --noble-gas: #00e5ff;
+  --diatomic-nonmetal: #f72585;
+  --lanthanide: #ff9966;
+  --actinide: #00f5d4;
+}
+
+.alkali-metal {
+  color: var(--alkali-metal);
+  background-color: black;
+  border: 1px solid var(--alkali-metal);
+}
+
+.alkali-earth-metal {
+  color: var(--alkali-earth-metal);
+  background-color: black;
+  border: 1px solid var(--alkali-earth-metal);
+}
+
+.transition-metal {
+  color: var(--transition-metal);
+  background-color: black;
+  border: 1px solid var(--transition-metal);
+}
+
+.metalloid {
+  color: var(--metalloid);
+  background-color: black;
+  border: 1px solid var(--metalloid);
+}
+
+.post-transition-metal {
+  color: var(--post-transition-metal);
+  background-color: black;
+  border: 1px solid var(--post-transition-metal);
+}
+
+.unknown {
+  color: var(--unknown);
+  background-color: black;
+  border: 1px solid var(--unknown);
+}
+
+.polyatomic-nonmetal {
+  color: var(--polyatomic-nonmetal);
+  background-color: black;
+  border: 1px solid var(--polyatomic-nonmetal);
+}
+
+.noble-gas {
+  color: var(--noble-gas);
+  background-color: black;
+  border: 1px solid var(--noble-gas);
+}
+
+.diatomic-nonmetal {
+  color: var(--diatomic-nonmetal);
+  background-color: black;
+  border: 1px solid var(--diatomic-nonmetal);
+}
+
+.lanthanide {
+  color: var(--lanthanide);
+  background-color: black;
+  border: 1px solid var(--lanthanide);
+}
+
+.actinide {
+  color: var(--actinide);
+  background-color: black;
+  border: 1px solid var(--actinide);
+}
+
+.popup-content > div {
+  margin: 4rem;
+}
